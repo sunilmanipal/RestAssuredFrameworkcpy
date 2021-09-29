@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15138" started-at="2021-06-24T08:12:29Z" finished-at="2021-06-24T08:12:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15138" started-at="2021-06-24T08:12:29Z" finished-at="2021-06-24T08:12:44Z">
+      <class name="Test.TestAPI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestAPI@5e3a8624]" name="setup" is-config="true" duration-ms="10533" started-at="2021-06-24T13:42:29Z" finished-at="2021-06-24T13:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getalluser()[pri:0, instance:Test.TestAPI@5e3a8624]" name="getalluser" duration-ms="2837" started-at="2021-06-24T13:42:40Z" finished-at="2021-06-24T13:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getalluser -->
+        <test-method status="PASS" signature="deleteuser()[pri:0, instance:Test.TestAPI@5e3a8624]" name="deleteuser" duration-ms="1712" started-at="2021-06-24T13:42:42Z" depends-on-methods="Test.TestAPI.getalluser" finished-at="2021-06-24T13:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- Test.TestAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
